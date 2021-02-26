@@ -74,6 +74,7 @@ img {
 
 /* RESPONSIVE */
 @media screen and (max-width: 419px) {
+  /* GENERAL */
   * {
     font-size: 14px;
   }
@@ -93,16 +94,17 @@ img {
   hr {
     margin-top: 20px;
   }
-  
+  /* UTILITIES */
   .row {
     max-width: 100%;
     margin-top: 20px;
   }
 
-  #lezioni {
+  .container {
     max-width: 100%;
   }
 
+  /* LEZIONI SECTION */
   #lezioni .row .left,
   #lezioni .row .right {
     float: none;
@@ -110,17 +112,15 @@ img {
     margin: 20px auto;
   }
 
-  #why {
-    max-width: 100%;
-  }
-
+  /* WHY SECTION*/
   #why .row img {
+    height: 60px;
     padding: 20px;
   }
 
   #why .row>.first,
-   #why .row>.second,
-    #why .row>.third {
+  #why .row>.second,
+  #why .row>.third {
       margin-top: 30px;
     }
 }
