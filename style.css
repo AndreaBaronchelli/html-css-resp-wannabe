@@ -74,5 +74,53 @@ img {
 
 /* RESPONSIVE */
 @media screen and (max-width: 419px) {
+  * {
+    font-size: 14px;
+  }
+
+  body {
+    background-color: #f9f9f9;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  hr {
+    margin-top: 20px;
+  }
   
+  .row {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  #lezioni {
+    max-width: 100%;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .right {
+    float: none;
+    display: block;
+    margin: 20px auto;
+  }
+
+  #why {
+    max-width: 100%;
+  }
+
+  #why .row img {
+    padding: 20px;
+  }
+
+  #why .row>.first,
+   #why .row>.second,
+    #why .row>.third {
+      margin-top: 30px;
+    }
 }
